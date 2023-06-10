@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="scss/style.css">
+    <script src="js/script.js"></script>
+
 </head>
 <body>
     <header class="header">
@@ -29,10 +31,25 @@
         <section class="sect-main" id="hero">
             <h1>Frontend</h1>
             <p>Frontend - это та область веб-разработки, которая занимается созданием пользовательского интерфейса сайта или приложения, с которым взаимодействует пользователь. Frontend разработчик занимается написанием кода на языках программирования HTML, CSS и JavaScript, который отвечает за визуальное и функциональное поведение интерфейса.</p>
-            <img src="img/hero-image.png" alt="Hero Image">
+            <img src="img/hero-image.png" alt="Hero Image"
+            srcset="img/hero-image.png 50w,
+            img/hero-image.pngg 100w,
+            img/hero-image.png 200w"
+          sizes="(max-width: 500px) 50px,
+            (max-width: 800px) 100px,
+            200px">
             <a href="#noscroll" class="sect--link">Узнать больше</a>
         </section>
-
+        <section>
+            <div id="container">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+              <input type="text" placeholder="your message" />
+              <button>add new message</button>  
+        </section>
     </main>
     <footer>
         <p>ФИО: Бабусенко Артем Юрьевич, Группа: 221-323, Дата: 10.06.2023</p>
