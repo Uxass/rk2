@@ -4,7 +4,7 @@ header {
   justify-content: space-between;
   padding: 20px;
   height: 80px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid gray;
   max-width: 1920px;
   margin: 0 auto;
 }
@@ -17,4 +17,25 @@ header {
   list-style: none;
   display: flex;
   justify-content: space-between;
+}
+
+.sect-main {
+  text-align: center;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sect--link {
+  display: block;
+  margin: 5% auto;
+  vertical-align: middle;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  border: 10px solid #007bff;
 }/*# sourceMappingURL=style.css.map */
